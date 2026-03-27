@@ -1,0 +1,12 @@
+[package]
+name = "Assignment6Question3"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.44"
+rand = "0.10.0"
+rpassword = "7.4.0"
+rusqlite = { version = "0.39.0", features = ["bundled"] }
+rust-argon2 = "3.0.0"
+thiserror = "2.0.18"

@@ -1,0 +1,11 @@
+[package]
+name = "Assignment6Question2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bcrypt = "0.19.0"
+chrono = "0.4.44"
+rpassword = "7.4.0"
+rusqlite = { version = "0.39.0", features = ["bundled"] }
+thiserror = "2.0.18"
